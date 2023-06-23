@@ -1,0 +1,38 @@
+body {
+    background: #edeaff; /* Body background color */
+}
+
+.stopwatch {
+    width: 90%; /* Width of the stopwatch container */
+    max-width: 600px; /* Maximum width of the stopwatch container */
+    background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url(images/BlackBackground.jpeg); /* Background image for the stopwatch container */
+    background-size: cover; /* Scale the background image to cover the container */
+    background-position: center; /* Center the background image */
+    text-align: center; /* Center the content */
+    padding: 40px 0; /* Padding at the top and bottom */
+    color: white; /* Text color */
+    margin: 200px auto 0; /* Margins for positioning */
+    box-shadow: 0 10px 10px rgba(0,0,0,0.8); /* Box shadow effect */
+}
+
+.stopwatch h1 {
+    margin-top: 60px; /* Margin at the top of the h1 element */
+    font-size: 64px; /* Font size of the h1 element */
+    font-weight: 300; /* Font weight of the h1 element */
+}
+
+.buttons {
+    display: flex; /* Display as flex container */
+    align-items: center; /* Vertically center items */
+    justify-content: center; /* Horizontally center items */
+}
+
+.buttons img {
+    width: 50px; /* Width of button images */
+    margin: 0 20px; /* Margin around button images */
+    cursor: pointer; /* Cursor style for button images */
+}
+
+.buttons img:nth-child(2) {
+    width: 80px; /* Width of the second button image */
+}
